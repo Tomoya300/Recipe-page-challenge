@@ -1,0 +1,151 @@
+@import "partials/mixin";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 10vh 25vw;
+
+    main {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;
+        padding: 5%;
+
+        .young-serif-regular {
+            font-family: "Young Serif", serif;
+            font-weight: 400;
+            font-style: normal;
+          }
+
+        img {
+            width: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        hr {
+            opacity: 0.4;
+        }
+
+        .prep {
+            background-color: hsl(330, 100%, 98%);
+            border-radius: 25px;
+            padding: 1%;
+
+            span {
+                @include outfit-subhead;
+                color: hsl(30, 10%, 34%);
+            }
+        
+            h3 {
+                padding-left: 20px;
+                color: hsl(332, 51%, 32%);
+                @include outfit-subhead;
+            }
+        
+            ul {
+                line-height: 2;
+
+                li {
+                    padding-left: 20px;
+                    @include outfit-p;
+
+                    &::marker {
+                        color: hsl(14, 45%, 36%);
+                    }
+                }
+            }
+        }
+
+        h1 {
+            color: hsl(24, 5%, 18%);
+        }
+
+        h2 {
+            color: hsl(14, 45%, 36%);
+            padding-left: 20px;
+        }
+
+        p {
+            color: hsl(30, 10%, 34%);
+            @include outfit-p;
+        }
+
+        ul li {
+            color: hsl(30, 10%, 34%);
+            @include outfit-p;
+            line-height: 2;
+            padding-left: 20px;
+
+            &::marker {
+                color: hsl(14, 45%, 36%);
+                font-weight: bold;
+            }
+        }
+
+        ol {
+            // padding: 0;
+
+            li {
+                @include outfit-p;
+                margin-bottom: 10px;
+                padding-left: 20px;
+
+                &::marker {
+                    color: hsl(14, 45%, 36%);
+                    font-weight: bold;
+                }
+            
+                .title {
+                    @include outfit-subhead;
+                    color: hsl(30, 10%, 34%);
+                }
+
+                .content {
+                    color: hsl(30, 10%, 34%);
+                }
+            }
+        }
+
+        .nutrition {
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 10px;
+            @include outfit-p;
+            color: hsl(30, 10%, 34%);
+
+            tr td {
+                border-bottom: 1px solid rgba(198, 198, 198, 0.8);
+                padding-left: 20px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+            
+            .num {
+                @include outfit-subhead;
+                color: hsl(14, 45%, 36%);
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

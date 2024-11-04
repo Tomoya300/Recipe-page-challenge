@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  margin: 0;
+  padding: 10vh 25vw;
+}
+body main {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 5%;
+}
+body main .young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body main img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+body main hr {
+  opacity: 0.4;
+}
+body main .prep {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 25px;
+  padding: 1%;
+}
+body main .prep span {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+}
+body main .prep h3 {
+  padding-left: 20px;
+  color: hsl(332, 51%, 32%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+body main .prep ul {
+  line-height: 2;
+}
+body main .prep ul li {
+  padding-left: 20px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body main .prep ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+body main h1 {
+  color: hsl(24, 5%, 18%);
+}
+body main h2 {
+  color: hsl(14, 45%, 36%);
+  padding-left: 20px;
+}
+body main p {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body main ul li {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2;
+  padding-left: 20px;
+}
+body main ul li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+body main ol li {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+body main ol li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+body main ol li .title {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+}
+body main ol li .content {
+  color: hsl(30, 10%, 34%);
+}
+body main .nutrition {
+  padding-left: 20px;
+}
+body main table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 10px;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(30, 10%, 34%);
+}
+body main table tr td {
+  border-bottom: 1px solid rgba(198, 198, 198, 0.8);
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+body main table .num {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: hsl(14, 45%, 36%);
+}
+
+/*# sourceMappingURL=style.css.map */
