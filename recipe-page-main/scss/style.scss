@@ -1,4 +1,5 @@
 @import "partials/mixin";
+@import "partials/responsive";
 
 * {
     box-sizing: border-box;
@@ -12,7 +13,15 @@ body {
     main {
         background-color: hsl(0, 0%, 100%);
         border-radius: 20px;
-        padding: 5%;
+        width: 100%;
+
+        .photo {
+            padding: 5%;
+        }
+
+        .content {
+            padding: 5%;
+        }
 
         .young-serif-regular {
             font-family: "Young Serif", serif;

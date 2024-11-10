@@ -1,0 +1,22 @@
+@media screen and (max-width: 628px) {
+    body {
+        padding: 0px !important; 
+
+        main {
+            border-radius: 0 !important;
+
+            .photo {
+                padding: 0 !important;
+
+                img {
+                    border-radius: 0;
+                }
+            }
+
+        }
+
+        .attribution {
+            background-color: hsl(0, 0%, 100%);
+        }
+    }
+}
